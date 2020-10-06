@@ -9,6 +9,7 @@ namespace ConsoleApp2
             var test1 = new Test();
             var newNum = test1.Num02;
             Console.WriteLine(newNum);
+            Console.WriteLine("tjabba");
         }
     }
 
