@@ -6,9 +6,24 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
+            var test1 = new Test();
+            var newNum = test1.Num02;
+            Console.WriteLine(newNum);
         }
     }
-}
+
+    class Test
+    {
+        public Test()
+        {
+            
+        }
+
+
+        public int _num = 22;
+        public int Num02 = 23;
+
+    }
+    
+    
+}    
